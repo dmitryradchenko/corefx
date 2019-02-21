@@ -12,6 +12,7 @@ namespace System
         public static readonly Utf8String Empty;
         public Utf8String(ReadOnlySpan<byte> value) { }
         public Utf8String(ReadOnlySpan<char> value) { }
+        public Utf8String(string value) { }
         public static bool operator ==(Utf8String a, Utf8String b) => throw null;
         public static bool operator !=(Utf8String a, Utf8String b) => throw null;
         public int Length => throw null;
